@@ -13,10 +13,11 @@
 .he{
   height : 100vh
 }
-.dice{  
-        height : 33vh;
-        border: none ;
-        box-shadow: 6px 6px black;
+.white{
+    color : white;
+}
+.red{
+    color : red;
 }
 .score{
     font-size : 60px;
@@ -99,29 +100,22 @@ button{
 }
 
 
-@media screen and (max-width: 700px) { 
- #roll{
-    height : 6vw;
-    width : 18vh;
-    font-size : 1.5vw;
- }
- #hold{
-    height : 6vw;
-    width : 18vh;
-    font-size : 1.5vw;
- }
+@media screen and (max-width: 1300px) { 
+    #roll{
+        height : 20vw;
+        width : 18vw;
+        font-size : 4vw;
+     }
+     #hold{
+        height : 20vw;
+        width : 18vw;
+        font-size : 4vw;
+     }
+     .de{
+         height : 20vh;
+         width : 20vw;
+    
+     }
 }
  
-@media screen and (max-width: 400px) { 
- #roll{
-    height : 20vw;
-    width : 18vw;
-    font-size : 4vw;
- }
- #hold{
-    height : 20vw;
-    width : 18vw;
-    font-size : 4vw;
- }
-}
- 
+
